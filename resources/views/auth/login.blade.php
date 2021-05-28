@@ -49,6 +49,8 @@
 
             <div class="text-center mt-3">
                 <a href='signup'>まだ登録がお済みでない方はこちら</a>
+                <br>
+                <a href='/guest'>ゲストでログインの方はこちら</a>
             </div>
         </form>
     </main>

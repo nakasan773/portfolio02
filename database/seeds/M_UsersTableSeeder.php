@@ -13,12 +13,12 @@ class M_UsersTableSeeder extends Seeder
     {
         DB::table('m_users')->insert([
             'password' => 'sample',
-            'last_name' => 'sample_L_name',
-            'first_name' => 'sample_F_name',
+            'last_name' => 'ゲスト',
+            'first_name' => 'ユーザー',
             'zipcode' => 2710056,
             'prefecture' => '千葉県',
             'municipality' => '松戸市',
-            'address' => '111111',
+            'address' => '111-1111',
             'apartments' => 'sampleマンション',
             'email' => 'sample@sample.co.jp',
             'phone_number' => 01234567,

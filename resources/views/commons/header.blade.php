@@ -1,5 +1,5 @@
 <header>
-    <h1><a href="/">やんばるエキスパート</a></h1>
+    <h1><a href="/">共同開発 ECサイト</a></h1>
     <nav class="pc-nav">
         <ul>
             @if (Auth::check())

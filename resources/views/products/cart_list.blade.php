@@ -88,9 +88,13 @@
                     </div>
                     <!-- ボタン -->
                     <div class="col-12 row justify-content-center mt-3">
-                        <button class="btn btn-info mx-3">買い物を続ける</button>
+                        <a class="btn btn-success" href="{{ route('search.product') }}" role="button">
+                                    買い物を続ける
+                        </a>
+                        
                         <button class="btn btn-primary mx-3">注文を確定する</button>
                     </div>
+                    
                 </div>
             </div>
         </div>

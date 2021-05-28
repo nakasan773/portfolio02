@@ -19,6 +19,8 @@ class ProductsController extends Controller
                                 })
                                 ->orderByRaw("category_id ASC, product_name ASC")
                                 ->paginate(15);
+                                
+                                
 
         $allProductsCategories = Category::get();
         return view('products.search_products', compact('productsDetails', 'allProductsCategories'));

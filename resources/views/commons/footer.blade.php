@@ -1,4 +1,4 @@
 <footer>
-    <h1>やんばるエキスパート</h1>
-    <p>© 2020 QuestAcademia, All rights reserved</p>
+    <h1>共同開発 ECサイト</h1>
+    <p>© nakasanQiita, All rights reserved</p>
 </footer>
